@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="@dimen/_15sdp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvSnapToItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Snap to one item at a time"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:padding="@dimen/_15sdp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvNestedRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nested Recyclerview"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:padding="@dimen/_15sdp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvViewpagerRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Viewpager Recyclerview"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:padding="@dimen/_15sdp"
+        android:background="@color/black"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
